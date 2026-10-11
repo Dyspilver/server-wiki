@@ -1,21 +1,20 @@
 import { defineConfig } from 'vitepress'
 
-// DVCraft Wiki 的 VitePress 配置
+// DVR Wiki 的 VitePress 配置
 // 文档：https://vitepress.dev/reference/site-config
 export default defineConfig({
   // 网站语言，影响字体、日期格式、无障碍提示等
   lang: 'zh-CN',
 
   // 浏览器标签页上显示的标题
-  title: 'DVCraft Wiki',
+  title: 'DVR Wiki',
 
   // 被搜索引擎收录时的简介
-  description: 'DVRraft 服务器官方 Wiki：原版强化玩法、领地系统与服务器守则',
+  description: 'Deep Vanilla Realms（DVR）服务器官方 Wiki：原版强化玩法、领地系统与服务器守则',
 
   // 【部署时要改这里】发布到 GitHub Pages 的项目站点时，仓库名决定路径，
-  // 例如仓库叫 server-wiki 就写 base: '/server-wiki/'；
-  // 若是 username.github.io 这种用户站点则保持 '/'。
-  base: '/',
+  // 仓库为 Dyspilver/server-wiki，故 base 为 '/server-wiki/'。
+  base: '/server-wiki/',
 
   // 显示每篇文档的最后更新时间
   lastUpdated: true,
